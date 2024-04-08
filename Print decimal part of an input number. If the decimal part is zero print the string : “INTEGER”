@@ -1,0 +1,11 @@
+def print_decimal_part():
+  try:
+    num=float(input("Enter a number."))
+    decimal_part=str(num).split('.')[1] if '.' in str(num) else '0'
+    if decimal_part=='0':
+      print("INTEGER")
+    else:
+      print("Decimal part:",decimal_part)
+  except ValueError:
+        print("Invalid input. Please enter a valid number.")
+print_decimal_part()
