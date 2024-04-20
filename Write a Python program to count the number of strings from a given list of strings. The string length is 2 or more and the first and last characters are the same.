@@ -1,0 +1,11 @@
+# Define a list of String
+strings=['level','python','noon','radar','hello','wow']
+# Initialize variable to count matching strings
+count=0
+# Iterate through the list of strings
+# Check if the string length is 2 or more and the first and last characters are the same
+for s in strings:
+  if len(s)>=2 and s[0]== s[-1]:
+    count+=1 # increment the count if the condition is  met
+# Print the count of matching strings
+print("Number of strings meeting the condition:",count)
