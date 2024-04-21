@@ -1,0 +1,7 @@
+# Define a list of string
+my_list=['apple', 'banana', 'pear', 'kiw', 'orange', 'grape']
+# Filter the list based on the length of charecters
+filtered_list= [x for x in my_list if len(x)<4]
+# Print the original list and filtered list
+print("Original List:",my_list)
+print("Filterd List (Length<4):",filtered_list)
