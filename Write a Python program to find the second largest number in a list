@@ -1,0 +1,9 @@
+# Define list of numbers
+numbers=[10,20,30,40,50]
+# Sort the list in descending order
+sorted_numbers= sorted(numbers,reverse=True)
+# Get the second largest number(index 1 after sorting)
+second_largest=sorted_numbers[1] if len(sorted_numbers)>1 else None
+#print the original list and second largest number
+print("Original List:",numbers)
+print("Second Largest Number:",second_largest)
