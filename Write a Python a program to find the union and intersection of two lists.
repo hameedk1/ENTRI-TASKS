@@ -1,0 +1,17 @@
+def find_union(list1,list2):
+#union : Combine both lists and remove duplicates
+  union_list=list(set(list1+list2))
+  return union_list
+def find_intersection(list1,list2):
+# Intersection: Find common elements between both lists
+    intersection_list = [elem for elem in list1 if elem in list2]
+    return intersection_list
+# Sample lists
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7]
+# Find and print the union of list1 and list2
+union_result=find_union(list1,list2)
+print("Union of the list1 and list2:",union_result)
+# Find and print the intersection of list1 and list2
+intersection_result=find_intersection(list1,list2)
+print("Intersection of list1 and list2:",intersection_result)
