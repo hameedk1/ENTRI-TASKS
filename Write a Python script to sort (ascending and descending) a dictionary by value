@@ -1,0 +1,9 @@
+# Sample Dictionary
+sample_dict={'apple':5, 'banana':2,'cherry':8,'date':3}
+#sort the dictionary in ascending order by value
+sorted_asc=dict(sorted(sample_dict.items(),key=lambda x:x[1]))
+#sort the dictionary in desending order by value
+sorted_desc=dict(sorted(sample_dict.items(),key=lambda x:x[1],reverse=True))
+#Print the sorted dictionaries
+print("Sorted in ascending order:",sorted_asc)
+print("Sorted in descending order:",sorted_desc)
