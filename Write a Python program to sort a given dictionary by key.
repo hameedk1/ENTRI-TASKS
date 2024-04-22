@@ -1,0 +1,9 @@
+def sort_dict_by_key(input_dict):
+  sorted_dict=dict(sorted(input_dict.items()))
+  return sorted_dict
+# Sample dictionary
+sample_dict = {'banana': 2, 'apple': 5, 'cherry': 8, 'date': 3}
+#Sort the dictionary by key
+sorted_dict=sort_dict_by_key(sample_dict)
+print("Original Dictionary:",sample_dict)
+print("Sorted Dictionaryby key:",sorted_dict)
