@@ -1,0 +1,8 @@
+def sum_dictionary_values(dictionary):
+  total_sum=sum(dictionary.values())
+  return total_sum
+#Sample Dictionary
+sample_dict={'apple':5,'banana':2,'cherry':8,'date':3}
+#Calculate the sum of values in the dictionary
+sum_values=sum_dictionary_values(sample_dict)
+print("Sum of values in the dictionaries:",sum_values)
